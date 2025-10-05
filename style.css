@@ -630,6 +630,32 @@ html { scroll-behavior: smooth; }
     background: rgba(255, 255, 255, 0.9);
   }
 }
+header {
+  background: rgb(255, 255, 255); /* ușor translucid */
+  backdrop-filter: blur(7px);          /* efect sticlă elegant */
+}
+
+/* Elimină fundalul alb doar din nav (linkuri) */
+header nav {
+  background: transparent !important;
+}
+@media (max-width: 768px) {
+  header {
+  background: rgba(255, 255, 255, 0.9); /* ușor translucid */
+}
+  header.shrink .nav-links {
+    top: 48.6px;
+    background: rgb(255, 255, 255);
+  }
+}
+  /* Doar pentru mobil (max 768px) */
+@media (max-width: 768px) {
+  .nav-links {
+    background: rgba(255, 255, 255, 0.9) !important; /* alb solid pentru meniu mobil */
+  }
+}
+
+
 
 
 
