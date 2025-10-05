@@ -21,9 +21,19 @@ header {
   transition: all 0.3s ease; /* animatie smooth */
 }
 
+header {
+  background: rgb(255, 255, 255); /* ușor translucid */
+  backdrop-filter: blur(7px);          /* efect sticlă elegant */
+}
+
+/* Elimină fundalul alb doar din nav (linkuri) */
+header nav {
+  background: transparent !important;
+}
+
 header.shrink {
   padding: 0.5rem 2rem;
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(255, 255, 255, 0.4);
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
@@ -620,6 +630,7 @@ html { scroll-behavior: smooth; }
     background: rgba(255, 255, 255, 0.9);
   }
 }
+
 
 
 
