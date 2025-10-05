@@ -527,7 +527,7 @@ html { scroll-behavior: smooth; }
 /* Meniu ascuns inițial */
 .nav-links {
   position: absolute;
-  top: 100%; /* sub header */
+  top: 80%; /* sub header */
   left: 0;
   width: 100%;
   background: #fff;
@@ -605,3 +605,4 @@ html { scroll-behavior: smooth; }
     padding: 5rem; /* înainte 4rem */
   }
 }
+
