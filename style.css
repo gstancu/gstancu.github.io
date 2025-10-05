@@ -606,3 +606,14 @@ html { scroll-behavior: smooth; }
   }
 }
 
+@media (max-width: 768px) {
+  header.shrink {
+  padding: 0.5rem 2rem;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);}
+
+  header.shrink .logo img {
+    height: 40px;
+  }
+}
+    
