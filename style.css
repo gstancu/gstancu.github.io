@@ -527,7 +527,7 @@ html { scroll-behavior: smooth; }
 /* Meniu ascuns inițial */
 .nav-links {
   position: absolute;
-  top: 80%; /* sub header */
+  top: 83%; /* sub header */
   left: 0;
   width: 100%;
   background: #fff;
@@ -608,18 +608,19 @@ html { scroll-behavior: smooth; }
 
 @media (max-width: 768px) {
   header.shrink {
-  padding: 0.2rem 2.1rem;
+  padding: 0.3rem 1rem;
   background: rgba(255, 255, 255, 0.95);
   box-shadow: 0 5px 10px rgba(0,0,0,0.1);}
 
   header.shrink .logo img {
-    height: 56px;
+    height: 54px;
   }
   header.shrink .nav-links {
-    top: 40px;
+    top: 48.6px;
+    background: rgba(255, 255, 255, 0.9);
   }
 }
-    
+
 
 
 
