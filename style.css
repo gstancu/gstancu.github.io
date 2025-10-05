@@ -613,13 +613,14 @@ html { scroll-behavior: smooth; }
   box-shadow: 0 5px 10px rgba(0,0,0,0.1);}
 
   header.shrink .logo img {
-    height: 58px;
+    height: 56px;
   }
   header.shrink .nav-links {
-    top: 43px;
+    top: 40px;
   }
 }
     
+
 
 
 
