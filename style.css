@@ -301,8 +301,15 @@ footer {
   background: rgba(0, 0, 0, 0.3);
   color: #fff;
   font-weight: bold;
+  backdrop-filter: blur(1px);
+  -webkit-backdrop-filter: blur(1px);
+  transition: backdrop-filter 0.6s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.category-btn:hover span,
+.category-btn:active span {
+  backdrop-filter: blur(0);
+  -webkit-backdrop-filter: blur(0);
+}
 @keyframes fadeInUp {
   to { opacity: 1; transform: scale(1) translateY(0); }
 }
@@ -654,6 +661,7 @@ header nav {
     background: rgba(255, 255, 255, 0.9) !important; /* alb solid pentru meniu mobil */
   }
 }
+
 
 
 
